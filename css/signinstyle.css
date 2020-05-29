@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+  font-family: 'PT Sans', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+#createAcc-box {
+  position: relative;
+  margin: 8% auto;
+  width: 600px;
+  height: 700px;
+  background-image: linear-gradient(to bottom right, #e8e8e8, #dbdbdb);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+#signUp-box {
+  position: relative;
+  margin: 10% auto;
+  width: 600px;
+  height: 400px;
+  background-image: linear-gradient(to bottom right, #e8e8e8, #dbdbdb);
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+#cancelbtn {
+    transition: .5s ease;
+    margin-left: -60px;
+    margin-top: 214px;
+}
+.left, .right {
+  padding: 40px;
+  width: 300px;
+  height: 400px;
+  position: absolute;
+  top: 0
+}
+.left {
+  left: 0;
+}
+.right {
+  right: 0;
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 200;
+  font-size: 2em;
+}
+.sign-up input {
+  border: none;
+  border-bottom: 1px solid #AAA;
+  display: block;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  font-weight: 400;
+  
+}
+.sign-up input:focus {
+  border: none;
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+button {
+  margin-bottom: 22px;
+  width: 215px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+}
+button:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+button:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+.sign-up-button {
+  margin: 5px auto;
+  background: #000;
+  text-transform: uppercase;
+}
+
+.cancel-button {
+  margin: 5px auto;
+  background: #FF0000;
+  text-transform: uppercase;
+}
+
+.signUpButton {
+  margin: 5px auto;
+  background: #1b1e23;
+  text-transform: uppercase;
+}
+.facebook {
+  background: #32508E;
+}
+.twitter {
+  background: #55ACEE;
+}
+.google {
+  background: #DD4B39;
+}
+.or {
+  position: absolute;
+  top: 240px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #eeeeee;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+
+}
+.loginwith {
+  display: block;
+  margin-bottom: 40px;
+  height: 100px;
+  text-align: center;
+}
+/*Navigation*/
+#nav {
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	min-height: 36px;
+	background-color: #000;
+	color: #fff;
+}
+#nav a, #nav a:hover, #nav a:visited {
+	color: #fff;
+}
+#nav .login {
+	display: inline;
+	float: right;
+	color: #fff;
+	background-color: #101010;
+	text-align: center;
+	padding: 8px;
+	text-decoration: none;
+	font-size: 16px;
+	border: none;
+	height: 100%;
+}
+#nav .login:hover {
+	color: #101010;
+	background-color: #fff;
+}
+#logo {
+	float: left;
+	padding-left: 16px;
+	padding-top: 8px;
+	margin: auto;
+	font-weight: 700;
+}
+/*Footer*/
+#footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+	margin-bottom:0px;
+	clear: both;
+	padding: 5px;
+	text-align: center;
+	background-color: #1c1c1c;
+	color: white;
+}
+#footer a, #footer a:hover {
+	color: white;
+}
+#footer a:hover {
+	text-decoration: underline;
+}

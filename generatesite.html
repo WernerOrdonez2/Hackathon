@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DIY - Create</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://kit.fontawesome.com/29bad87383.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<div id='nav'><!--nav-->
+	<p id="logo"><a href="index.html">DIY</a></p>
+</div><!--end nav-->
+<div id="container"><!--container-->
+	<div>
+		<center><h2>Create Business Website</h2></center>
+		<hr>
+		<p>Need a website for your company?</p>
+		<p>
+			Look no further! The DIY platform will generate a website for your business in no time!
+			Simply provide us with the following details about your company.
+		</p>
+		<center><h3>Let's Get Started!</h3></center>
+
+		<form id="niceform" method="get" action="process.php">
+		<table>
+			<tr>
+				<td>
+					<label>Company Name: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td>
+					<input type="text" name="companyname" size="30" placeholder="Company Name" maxlength="150" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Address: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td>
+					<input type="text" name="address" size="40" maxlength="" placeholder="# Street, Unit, City, State, ZipCode" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Phone number: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td> 
+					<input type="tel" id="phone" name="phone" placeholder="(000)-000-0000" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Email: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td> 
+					<input type="email" id="email" name="email" placeholder="abcdefg@email.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Upload Images of Business: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td>
+					<i class="fas fa-upload fa-3x icon"></i>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>Upload Menu: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td>
+					<i class="fas fa-upload fa-3x icon"></i>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<label>About the Company: <span style="color:#DF0101">*</span></label>
+				</td>
+				<td>
+					<textarea name="request"  rows="10" cols="50" placeholder="Please provide a description of your business." required></textarea>
+				</td>
+			</tr>
+			<tr>
+				<td colspan = '2'>
+				<div style="float:right;">
+					<button type="reset">RESET</button>
+					<button>
+						<a href="barindex.html" target="_blank">
+							SUBMIT
+						</a>
+					</button>
+				</div>
+				</td>
+			</tr>
+		</table>
+		</form>
+	</div>
+</div><!--end container-->
+<div id="footer"><!--footer-->
+	<a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a>
+	&copy <script>document.write(new Date().getFullYear())</script>
+	<noscript>2020</noscript>
+</div><!--end footer-->
+</body>
+</html>
+<!--Erendira-->

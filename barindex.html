@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alehouse</title>
+  <link rel="stylesheet" type="text/css" href="css/alehouse.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+	<div id="loader"></div>
+	<div>
+		<div id="myDiv" class="animate-bottom">
+		  <div class="letters">
+			<h1 align="center" >ALEHOUSE</h1>
+			<div class="bar">
+				<img src="images/picone.jpg" alt="Bar">
+				<img src="images/pictwo.jpg" alt="Bar">
+				<img src="images/picthree.jpg" alt="Bar">
+			</div>
+			<h2 align="center">Menu</h2>
+			<div class="drinks">
+				<img src="images/drinks.jpg" alt="Drinks">
+			</div>
+			<h2 align="center">About</h2>
+			<p align="center">Team 5</p>
+			<h2 align="center">Contact</h2>
+			<p align="center">Location: 101 Hack St, Hackathon, MA 00101</p>
+			<p align="center">Phone: (001)110-1001</p>
+		  </div>
+		</div>
+	</div>
+
+	<script>
+	var myVar;
+
+	function myFunction() {
+	  myVar = setTimeout(showPage, 3000);
+	}
+
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("myDiv").style.display = "block";
+	  document.body.style = "background-color: black;";
+	}
+	</script>
+
+</body>
+</html>
+<!--Werner-->

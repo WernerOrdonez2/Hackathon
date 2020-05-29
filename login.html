@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DIY - Log In</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/signinstyle.css" media="screen" title="no title" charset="utf-8">
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+<div id='nav'><!--nav-->
+	<p id="logo"><a href="index.html">DIY</a></p>
+</div><!--end nav-->
+<div id="container">
+    <div id="signUp-box">
+        <div class="left">
+            <h3><i style="color:#1b1e23">Enter credentials associated with your account</i></h3>
+
+            <!-- add action to go to product detail page -->
+            <form class="sign-up" action="index-alehouse.html" method="post">
+				<input type="text" name="email" placeholder="E-mail" />
+				<input type="password" name="password" placeholder="Password" />
+				<button type="submit" style="background-color: black">
+					LOG IN
+				</button>
+			</form>
+		</div>
+		<!-- it should go back to product sign up page -->
+		<form class="sign-up" action="index.html" method="post">
+			<div class="right">
+				<button type="submit" id="cancelbtn" class="cancel-button">
+					CANCEL
+				</button>
+			</div>
+		</form>
+	</div>
+</div><!--end container-->
+<div id="footer"><!--footer-->
+	<a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact Us</a>
+	&copy <script>document.write(new Date().getFullYear())</script>
+	<noscript>2020</noscript>
+</div><!--end footer-->
+</body>
+</html>
